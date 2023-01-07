@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 50vh;
+    background-image: url(./images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 21px;
+    position: relative;
+}
+
+nav {
+    margin-top: 15px;
+    display: flex;
+    padding: 0 61px;
+    justify-content: space-between;
+}
+
+nav img {
+    margin: 0 47px;
+}
+
+nav ul li {
+    display: inline-block;
+    gap: 31px;
+    padding: 0 21px;
+}
+
+nav ul li a {
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: hsl(176, 72%, 28%);
+}
+
+.checkbtn{
+    font-size: 31px;
+    color: white;
+    float: left;
+    line-height: 71px;
+    cursor: pointer;
+     /* display: none; */
+}
+
+#check{
+    display: none;
+}
+
+
+
+
+.monitor {
+    text-align: center;
+    background-color: white;
+    font-family: 'Commissioner', sans-serif;
+    height: 31vh;
+    border-radius: 30px;
+    width: 43%;
+    top: 35vh;
+    position: absolute;
+}
+
+.bamboo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bamboo h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.monitor p {
+    padding-bottom: 3vh;
+    color: hsl(0, 0%, 48%);
+}
+
+.project {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 20px 40px;
+    background-color: hsl(176, 72%, 28%);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.icon p {
+    padding: 2vh 2vh;
+}
+
+.botton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backed {
+    display: flex;
+    margin-top: 21vh;
+    justify-content: center;
+    position: relative;
+}
+
+.number {
+    width: 43%;
+    background-color: white;
+    border-radius: 30px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.number h1 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.number p {
+    color: hsl(0, 0%, 48%);
+    font-size: 18px;
+}
+
+.total {
+    border-left: 1px solid hsl(0, 0%, 48%);
+    padding: 0vh 6vh 0vh 6vh;
+    border-right: 1px solid hsl(0, 0%, 48%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.second-container {
+    font-family: 'Commissioner', sans-serif;
+    width: 43%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 10vh;
+}
+
+.comfort {
+    width: 80%;
+    align-content: space-around;
+    padding-bottom: 8vh;
+}
+
+.craft h3 {
+    padding: 5vh 0vh 3vh 0vh;
+}
+
+.craft p {
+    color: hsl(0, 0%, 48%);
+    padding-bottom: 3vh;
+}
+
+.ecomomic {
+    border: 1px solid hsl(0, 0%, 48%);
+    border-radius: 20px;
+    padding: 4vh;
+    margin-top: 3vh;
+}
+
+.stand {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+
+}
+
+.stand h4 {
+    color: hsl(176, 50%, 47%);
+}
+
+.ecomomic p {
+    color: hsl(0, 0%, 48%);
+    padding-bottom: 2vh;
+}
+
+.reward {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 2px;
+    color: hsl(0, 0%, 0%);
+}
+
+.button {
+    background-color: hsl(176, 50%, 47%);
+    padding: 15px 23px 15px 23px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    outline-color: hsl(176, 50%, 47%);
+}
+
+
+/* another */
+.mahogany {
+    border: 1px solid hsl(0, 0%, 48%);
+    border-radius: 20px;
+    padding: 4vh;
+    margin-top: 3vh;
+    opacity: 0.6;
+}
+
+.special h3 {
+    font-weight: bold;
+}
+
+.special {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+
+}
+
+.special h4 {
+    color: hsl(176, 50%, 47%);
+}
+
+.mahogany p {
+    color: hsl(0, 0%, 48%);
+    padding-bottom: 2vh;
+}
+
+.Edition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 2px;
+    color: hsl(0, 0%, 0%);
+}
+
+.stock {
+    background-color: hsl(0, 0%, 48%);
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(min-width :992px) and (max-width :1200px) {
+
+    .monitor,
+    .number,
+    .second-container {
+        width: 55%;
+    }
+}
+
+@media(min-width :751px) and (max-width :992px) {
+
+    .monitor,
+    .number,
+    .second-container {
+        width: 71%;
+    }
+
+    nav img {
+        margin: 0;
+    }
+}
+
+@media(min-width :587px) and (max-width :751px) {
+
+    .monitor,
+    .number,
+    .second-container {
+        width: 85%;
+    }
+
+    nav ul li {
+        padding: 0 11px;
+    }
+
+    nav img {
+        margin: 0;
+    }
+
+    nav {
+        padding: 0 31px;
+    }
+}
+
+@media(min-width :27px) and (max-width :587px) {
+    header {
+        width: 100%;
+        background-image: url(./images/image-hero-mobile.jpg);
+    }
+    .navmenu li{
+        display: block;
+    }
+    .navmenu li a{
+        font-size: 21px;
+        color: black;
+    }
+    a:hover , a:active{
+        background: none;
+        color: white;
+    }
+    body {
+        width: 100%;
+    }
+
+    .monitor, .number, .second-container {
+        width: 85%;
+    }
+    .project{
+        padding:17px 25px ;
+    }
+    .monitor{
+        padding: 10px;
+        height: 35vh;
+    }
+    .number {
+        flex-direction: column;
+        height: 51vh;
+    }
+    .backed{
+        margin-top: 27vh;
+    }
+
+    nav ul li {
+        padding: 0 11px;
+    }
+
+    nav img {
+        margin: 0;
+    }
+
+    nav {
+        padding: 0 31px;
+    }
+
+    .icon p {
+        display: none;
+    }
+
+    .bamboo h1 {
+        font-size: 22px;
+    }
+    .reward , .Edition , .stand ,.special{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .total{
+        border: none;
+        border-top:1px solid hsl(0, 0%, 48%);
+        border-bottom:1px solid hsl(0, 0%, 48%);
+    }
+    .left, .days{
+        padding: 0;
+    }
+  .checkbtn{
+    display: block;
+    float: right;
+  }
+  .navmenu{
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    top: 70px;
+    left:-100%;
+    transition: all .5s;
+    text-align: center;
+  }
+  .navmenu li{
+    display: block;
+    margin: 51px 0;
+    line-height: 31px;
+  }
+  .navmenu li a{
+    font-size: 21px;
+  }
+   a:hover , a.active{
+    color:hsl(176, 50%, 47%) ;
+   }
+   #checked:checked ~ ul{
+    left: 0;
+   }
+}
